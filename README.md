@@ -1,7 +1,7 @@
 # eeg_classification
 determine if subject is making fist with right or left hand using EEG data
 
-Dataset: PhysioNet 1.0.0 Public EEG Dataset, Subjects 3 and 4 who performed motor imagery tasks 
+Dataset: PhysioNet 1.0.0 Public EEG Dataset, Subjects 3 and 4 who performed motor/imagery tasks 
 64-channel broadband EEG data with annotated event codes, 160Hz sampling frequency and 80Hz lowpass filter applied
 
 Data processing: 
@@ -18,3 +18,7 @@ Testing:
    2. Using same data processing pipeline, load data for subject 4
    3. Across subject accuracy - train model on subject 3 data and predict labels for subject 4 EEG data. Visualize w/
            confusion matrix and obtain accuracy score
+
+Addressing Issues:
+    - Figure out which channels are most relevant for motor/imagery tasks, subset instead of all 64
+    - Maybe adjust window length, 8-30Hz filter, aggregate trials across multiple subjects for larger dataset
