@@ -1,5 +1,5 @@
 # eeg_classification
-determine if subject is making fist with right or left hand using EEG data
+Determine if subject is making fist with right or left hand using EEG data with MNE-Python library
 
 Dataset: PhysioNet 1.0.0 Public EEG Dataset, Subjects 3 and 4 who performed motor/imagery tasks 
 64-channel broadband EEG data with annotated event codes, 160Hz sampling frequency and 80Hz lowpass filter applied
