@@ -19,6 +19,6 @@ Testing:
    3. Across subject accuracy - train model on subject 3 data and predict labels for subject 4 EEG data. Visualize w/
            confusion matrix and obtain accuracy score
 
-Addressing Issues:
+Potential Issues Students Can Address:
     - Figure out which channels are most relevant for motor/imagery tasks, subset instead of all 64
-    - Maybe adjust window length, 8-30Hz filter, aggregate trials across multiple subjects for larger dataset
+    - Adjust window length, 8-30Hz filter, aggregate trials across multiple subjects for larger dataset
